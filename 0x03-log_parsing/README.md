@@ -3,7 +3,7 @@
 
 AlgorithmPython
 
-- By Dev Nderitu
+- By Emmanuel Nwachukwu
 
 Requirements
 ------------
@@ -41,7 +41,7 @@ Write a script that reads `stdin` line by line and computes metrics:
 **Warning:** In this sample, you will have random value - it's normal to not have the same output as this one.
 
 ```
-alexa@ubuntu:~/0x03-log_parsing$ cat 0-generator.py
+phoenix@phoenix-PC:~/0x03-log_parsing$ cat 0-generator.py
 #!/usr/bin/python3
 import random
 import sys
@@ -58,7 +58,7 @@ for i in range(10000):
     ))
     sys.stdout.flush()
 
-alexa@ubuntu:~/0x03-log_parsing$ ./0-generator.py | ./0-stats.py
+phoenix@phoenix-PC:~/0x03-log_parsing$ ./0-generator.py | ./0-stats.py
 File size: 5213
 200: 2
 401: 1
@@ -101,7 +101,7 @@ Traceback (most recent call last):
 KeyboardInterrupt
     sleep(random.random())
 KeyboardInterrupt
-alexa@ubuntu:~/0x03-log_parsing$
+phoenix@phoenix-PC:~/0x03-log_parsing$
 
 ```
 
